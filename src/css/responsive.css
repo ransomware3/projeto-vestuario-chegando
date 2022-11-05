@@ -1,0 +1,94 @@
+@media(max-width: 1024px){
+    main{
+        flex-direction: column;
+    }
+
+    .boas-vindas{
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    .boas-vindas .cabecalho{
+        height: 80px;
+    }
+
+    .boas-vindas .cabecalho .logo{
+        margin-left: 50px;
+    }
+
+    .mulher{
+        display: none;
+    }
+
+    .mulher-mobile{
+        display: block;
+        background-size: cover;
+    }
+
+    .boas-vindas .container-texto{
+        width: 100%;
+        text-align: center;
+    }
+
+    .boas-vindas .container-texto .container-email{
+        width: 100%;
+        height: 40px;
+        position: relative;
+    }
+
+    .boas-vindas .container-texto .container-email .erro{
+        width: 20px;
+        right: 85px;
+    }
+}
+
+
+@media(max-width: 500px){
+    main{
+        flex-direction: column;
+    }
+
+    .boas-vindas{
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    .boas-vindas .cabecalho{
+        height: 80px;
+    }
+
+    .boas-vindas .cabecalho .logo{
+        margin-left: 50px;
+        width: 100px;
+    }
+
+    .mulher{
+        display: none;
+    }
+
+    .mulher-mobile{
+        display: block;
+    }
+
+    .boas-vindas .container-texto{
+        padding: 50px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .boas-vindas .container-texto .titulo{
+        font-size: 40px;
+    }
+
+    .boas-vindas .container-texto .container-email{
+        width: 100%;
+        height: 40px;
+        position: relative;
+    }
+
+    .boas-vindas .container-texto .container-email .erro{
+        right: 85px;
+    }
+}

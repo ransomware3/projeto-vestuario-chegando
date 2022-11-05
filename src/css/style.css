@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+
+main{
+    width: 100%;
+    max-width: 1440px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.boas-vindas{
+    width: 60%;
+    height: 100%;
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-size: cover;
+}
+
+
+.boas-vindas .cabecalho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 130px;
+}
+
+
+.boas-vindas .cabecalho .logo{
+    width: 150px;
+    margin-left: 185px;
+}
+
+
+.mulher{
+    width: 40%;
+    height: 100%;
+    background: url(../images/hero-desktop.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+.mulher-mobile{
+    width: 100%;
+    height: 250px;
+    background: url(../images/hero-mobile.jpg) no-repeat;
+    background-size: contain;
+    display: none;
+}
+
+
+.boas-vindas .container-texto{
+    max-width: 450px;
+    padding: 50px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.boas-vindas .container-texto .titulo{
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+
+.boas-vindas .container-texto .titulo span{
+    font-weight: 100;
+    color: var(--primary-light);
+}
+
+
+.boas-vindas .container-texto .texto{
+    line-height: 27px;
+    color: var(--primary-light);
+    margin-bottom: 40px;
+}
+
+
+.boas-vindas .container-texto .alerta{
+    font-size: 12px;
+    color: var(--primary-light);
+    display: none;
+    margin: 15px;
+}
+
+
+.boas-vindas .container-texto .container-email{
+    display: flex;
+    align-items: center;
+    width: 430px;
+    height: 40px;
+    position: relative;
+}
+
+
+.boas-vindas .container-texto .container-email .email{
+    width: 428px;
+    height: 45px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    display: none;
+    border: 2px solid var(--primary-soft);
+}
+
+
+.boas-vindas .container-texto .container-email .email:focus{
+    outline: 0;
+}
+
+
+.boas-vindas .container-texto .container-email .erro{
+    width: 20px;
+    position: absolute;
+    right: 90px;
+    display: none;
+}
+
+
+.boas-vindas .container-texto .container-email .btn-email{
+    width: 80px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+
+
+.boas-vindas .container-texto .container-email .btn-email:hover{
+    background: linear-gradient(135deg, hsl(0, 100%, 98%), hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
